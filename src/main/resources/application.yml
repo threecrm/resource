@@ -1,0 +1,18 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /resource
+spring:
+  datasource:
+    url: jdbc:mysql://rm-wz945r62i2q3gk936do.mysql.rds.aliyuncs.com:3306/resource?characterEncoding=utf-8
+    username: root
+    password: WAtangyuan321
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+        
+    
