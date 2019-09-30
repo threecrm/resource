@@ -4,9 +4,9 @@ server:
     context-path: /resource
 spring:
   datasource:
-    url: jdbc:mysql://rm-wz945r62i2q3gk936do.mysql.rds.aliyuncs.com:3306/resource?characterEncoding=utf-8
+    url: jdbc:mysql://127.0.0.1:3306/resource?characterEncoding=utf-8
     username: root
-    password: WAtangyuan321
+    password: admin
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
